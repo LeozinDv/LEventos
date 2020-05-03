@@ -1,0 +1,105 @@
+Eventos:
+  RandomVIP: true
+  Loteria: true
+  Bolao: true
+  SpeedChat: true
+  Matematica: true
+
+RandomVIP:
+  Minimo_Online: 10
+  Comando: 'darvip @jogador vip1 15'
+
+Loteria:
+  Numero_Maximo: 400
+  Anuncios: 6
+  Intervalo: 10
+  Premio: 50000
+
+Bolao:
+  Valor_Aposta: 5000
+  Anuncios: 6
+  Intervalo: 15
+
+SpeedChat:
+  Quantia_Caracteres: 14
+  Premios:
+    Dinheiro: 15000
+    TAG: '&6[✎]'
+
+Matematica:
+  Premios:
+    Dinheiro: 10000
+    TAG: '&b[½]'
+
+Mensagens:
+  Nao_Acontecendo: '&cEste evento nao esta acontecendo no momento.'
+  Loteria_Erro_Args: '&cUtilize /loteria [numero].'
+  Loteria_Erro_Invalido: '&cNumero incorreto, tente novamente!'
+  Bolao_Erro_Participando: '&cVoce ja esta participando do bolao.'
+  Bolao_Erro_Saldo: '&cVoce precisa de 5.000$ para participar do bolao.'
+  Bolao_Sucesso: '&aAposta feita com sucesso, boa sorte!'
+  Matematica_Erro_Args: '&cUtilize /matematica [resultado].'
+  Matematica_Erro_Valor: '&cResultado incorreto, tente novamente.'
+
+Anuncios:
+  Loteria_Aberta:
+    - ' '
+    - '&fEvento &f&lLOTERIA &festa acontecendo'
+    - '&fPara participar utilize &7/loteria'
+    - '&fNumero maximo: &e@nmaximo'
+    - '&fPremio: &650.000'
+    - ' '
+  Loteria_Ganhador:
+    - ' '
+    - '&fEvento &f&lLOTERIA &ffinalizado'
+    - '&fVencedor: &e@vencedor'
+    - '&fNumero correto: &e@ncorreto'
+    - '&fPremio: &650.000'
+    - ' '
+  Loteria_Encerrado:
+    - ' '
+    - '&fEvento &f&lLOTERIA &ffinalizado'
+    - '&fNumero correto: &e@ncorreto'
+    - ' '
+  Bolao_Aberto:
+    - ' '
+    - '&aEvento BOLAO iniciado'
+    - '&aPara participar utilize &f/bolao'
+    - '&aValor da aposta: &75.000'
+    - '&aPremio: &7@premio'
+    - ' '
+  Bolao_Ganhador:
+    - ' '
+    - '&aEvento BOLAO encerrado'
+    - '&aVencedor: &f@vencedor'
+    - '&aPremio: &7@premio'
+    - ' '
+  SpeedChat_Aberto:
+    - ' '
+    - '&6Evento SpeedChat aberto'
+    - '&6Key: &e@key'
+    - '&6Digite-a para ganhar!'
+    - ' '
+  SpeedChat_Ganhador:
+    - ' '
+    - '&6Evento SpeedChat encerrado'
+    - '&6Vencedor: &e@vencedor'
+    - '&6Premios: @tag &e+ 15000'
+    - ' '
+  Matematica_Aberto:
+    - ' '
+    - '&eEvento Matematica aberto'
+    - '&eOperação: &b@operacao'
+    - '&eDigite &7/matematica [resultado] &epara vencer!'
+    - ' '
+  Matematica_Ganhador:
+    - ' '
+    - '&eEvento Matematica encerrado'
+    - '&eVencedor: &b@vencedor'
+    - '&eResultado: &f@resultado'
+    - '&ePremios: @tag &e+ 10000'
+    - ' '
+
+Vencedores:
+  SpeedChat: 'null'
+  Matematica: 'null'

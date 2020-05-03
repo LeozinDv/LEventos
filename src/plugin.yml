@@ -1,0 +1,11 @@
+name: LEventos
+main: me.devleo.eventos.Main
+version: 1.0
+author: L Devs
+website: ldevs.com.br
+
+commands:
+  myevent:
+  loteria:
+  bolao:
+  matematica:
